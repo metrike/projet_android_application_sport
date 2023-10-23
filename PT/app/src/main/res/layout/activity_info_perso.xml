@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parametre.Info_perso">
+
+    <TextView
+        android:id="@+id/txtage"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="75dp"
+        android:text="Indiquez votre âge" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/txtage"
+        android:layout_alignBottom="@+id/txtage"
+        android:layout_marginLeft="50dp"
+        android:hint="Age"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/txtpoids"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txtage"
+        android:layout_alignLeft="@+id/txtage"
+        android:layout_marginTop="50dp"
+        android:text="Indiquez votre poids" />
+
+    <EditText
+        android:id="@+id/poids"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/age"
+        android:layout_alignBottom="@+id/txtpoids"
+        android:hint="Poids en kg"
+        android:inputType="number"/>
+
+    <TextView
+        android:id="@+id/txttaille"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txtpoids"
+        android:layout_alignLeft="@+id/txtage"
+        android:layout_marginTop="50dp"
+        android:text="Indiquez votre taille" />
+
+    <EditText
+        android:id="@+id/taille"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/age"
+        android:layout_alignBottom="@+id/txttaille"
+        android:hint="Taille en cm"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnvalid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txttaille"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="175dp"
+        android:onClick="update"
+        android:text="Valider" />
+
+    <TextView
+        android:id="@+id/txtsexe"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_below="@+id/txttaille"
+        android:layout_alignLeft="@+id/txttaille"
+        android:layout_marginTop="50dp"
+        android:text="Indiquez votre sexe" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/age"
+        android:layout_below="@+id/taille"
+        android:layout_marginTop="25dp">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Homme"/>
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:text="Femme"/>
+    </RadioGroup>
+</RelativeLayout>

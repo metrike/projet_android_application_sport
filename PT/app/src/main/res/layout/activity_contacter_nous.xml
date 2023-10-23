@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parametre.Contacter_nous">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Laissez votre message"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="25dp"/>
+
+            <EditText
+                android:id="@+id/objet"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Objet"
+                android:layout_below="@+id/text"
+                android:background="@color/cornflowerblue"
+                android:layout_margin="10dp"
+                android:paddingLeft="10dp"/>
+
+            <EditText
+                android:id="@+id/corps"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/objet"
+                android:gravity="top"
+                android:hint="Votre message"
+                android:background="@color/cornflowerblue"
+                android:layout_margin="10dp"
+                android:paddingLeft="10dp"/>
+
+            <Button
+                android:id="@+id/confirmation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/corps"
+                android:layout_marginTop="25dp"
+                android:layout_centerHorizontal="true"
+                android:text="Confirmer" />
+        </RelativeLayout>
+    </ScrollView>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/page2"
+    app:startDestination="@id/accueil">
+
+    <fragment
+        android:id="@+id/historique"
+        android:name="fr.projet.pt.Historique"
+        android:label="fragment_historique"
+        tools:layout="@layout/fragment_historique" />
+    <fragment
+        android:id="@+id/parametre"
+        android:name="fr.projet.pt.Parametre"
+        android:label="fragment_parametre"
+        tools:layout="@layout/fragment_parametre" />
+    <fragment
+        android:id="@+id/sport2"
+        android:name="fr.projet.pt.Sport"
+        android:label="fragment_sport"
+        tools:layout="@layout/fragment_sport" />
+    <fragment
+        android:id="@+id/accueil"
+        android:name="fr.projet.pt.Accueil"
+        android:label="fragment_accueil"
+        tools:layout="@layout/fragment_accueil" />
+</navigation>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".sport_activity.Tabata">
+
+    <ProgressBar
+
+        android:id="@+id/circularProgressbar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:indeterminate="false"
+        android:max="100"
+        android:progress="20"
+        android:progressDrawable="@drawable/circular"
+        android:secondaryProgress="100" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="326dp"
+        android:layout_height="373dp"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="Temps"
+        android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/round"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/circularProgressbar"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+
+         />
+
+    <TextView
+        android:id="@+id/OnOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/round"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+
+        />
+
+</RelativeLayout>

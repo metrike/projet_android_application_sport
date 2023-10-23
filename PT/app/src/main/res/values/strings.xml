@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PT</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string-array name="choix_parcours">
+        <item>Libre</item>
+        <item>Nombre de km</item>
+    </string-array>
+
+    <string-array name="historique">
+        <item>Trier par</item>
+        <item>Du plus récent au plus ancien</item>
+        <item>Du plus ancien au plus récent</item>
+    </string-array>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>

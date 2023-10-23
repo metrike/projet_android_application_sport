@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="fr.projet.pt" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="My Trainer"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PT"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name=".Graphique"
+            android:exported="false" />
+        <activity
+            android:name=".sport_activity.RecapActivite"
+            android:exported="false"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".sport_activity.Tabata"
+            android:exported="false"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".sport_activity.FinActivite"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".parametre.Contacter_nous"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".parametre.Info_perso"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".sport_activity.AccueilTabata"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".sport_activity.RecapTabata"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".sport_activity.localisation.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+
+        <meta-data android:name="com.google.android.gms.version" />
+
+        <activity
+            android:name=".parametre.Page_parametre"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".sport_activity.Entrainement"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+
+        <service
+            android:name=".sport_activity.localisation.LocationService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <provider
+            android:name=".sport_activity.localisation.JourneyProvider"
+            android:authorities="fr.projet.pt.sport_activity.localisation.JourneyProvider"
+            android:exported="true"
+            tools:ignore="MissingClass" />
+
+        <activity
+            android:name=".sport_activity.localisation.RecordJourney"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".sport_activity.FinTabata"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".Page2"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".Inscription"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".Connexion"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".sport_activity.Manuellement"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.PT.Home" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

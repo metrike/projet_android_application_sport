@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Parametre">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="100dp"
+            android:paddingLeft="10dp">
+
+            <ImageView
+                android:id="@+id/logo_personne"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="30dp"/>
+
+            <TextView
+                android:id="@+id/affi_nom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/logo_personne"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="75dp"
+                android:layout_toRightOf="@+id/logo_personne"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:id="@+id/affi_prenom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/logo_personne"
+                android:layout_marginLeft="105dp"
+                android:layout_marginBottom="75dp"
+                android:layout_toRightOf="@+id/logo_personne"
+                android:textSize="30dp"/>
+
+            <Button
+                android:id="@+id/information_perso"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/logo_personne"
+                android:layout_below="@+id/logo_personne"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="15dp"
+                android:text="Informations Personnelles" />
+
+            <Button
+                android:id="@+id/parametre"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/information_perso"
+                android:layout_below="@+id/information_perso"
+                android:layout_marginTop="15dp"
+                android:text="Paramètres" />
+
+            <Button
+                android:id="@+id/contact_nous"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/parametre"
+                android:layout_below="@+id/parametre"
+                android:layout_marginTop="15dp"
+                android:text="Contactez-nous" />
+
+            <Button
+                android:id="@+id/deconnecte"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/contact_nous"
+                android:layout_below="@+id/contact_nous"
+                android:layout_marginTop="50dp"
+                android:text="Se déconnecter" />
+
+            <Button
+                android:id="@+id/desinscription"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_alignLeft="@+id/deconnecte"
+                android:layout_below="@+id/deconnecte"
+                android:layout_marginTop="15dp"
+                android:text="Se désinscrire" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</androidx.core.widget.NestedScrollView>

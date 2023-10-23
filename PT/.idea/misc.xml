@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/drawable/circular.xml" value="0.3287037037037037" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/drawable/circular2.xml" value="0.3287037037037037" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/drawable/degrade.xml" value="1.5035714285714286" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_accueil_tabata.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_connexion.xml" value="0.19791666666666666" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_course.xml" value="0.15942028985507245" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_edit_journey.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_entrainement.xml" value="0.35104166666666664" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_fin_activite.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_inscription.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_lance_maps.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_main.xml" value="0.3125" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_record_journey.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_statistics.xml" value="0.2015625" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_tabata.xml" value="0.14221014492753623" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_view_journeys.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_view_single_journey.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/fragment_accueil.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/fragment_historique.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/fragment_sport.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/journeylist.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/chouc/OneDrive/Bureau/GIT/PROJET_TUTORE/PT/app/src/main/res/layout/activity_course.xml" value="0.1796875" />
+        <entry key="..\:/Users/chouc/OneDrive/Bureau/GIT/PROJET_TUTORE/PT/app/src/main/res/layout/activity_edit_journey.xml" value="0.1796875" />
+        <entry key="..\:/Users/chouc/OneDrive/Bureau/GIT/PROJET_TUTORE/PT/app/src/main/res/layout/activity_entrainement.xml" value="0.1796875" />
+        <entry key="..\:/Users/chouc/OneDrive/Bureau/GIT/PROJET_TUTORE/PT/app/src/main/res/layout/activity_inscription.xml" value="0.1796875" />
+        <entry key="..\:/Users/chouc/OneDrive/Bureau/GIT/PROJET_TUTORE/PT/app/src/main/res/layout/activity_manuellement.xml" value="0.1" />
+        <entry key="..\:/Users/chouc/OneDrive/Bureau/GIT/PROJET_TUTORE/PT/app/src/main/res/layout/activity_view_journeys.xml" value="0.1796875" />
+        <entry key="..\:/Users/chouc/OneDrive/Bureau/GIT/PROJET_TUTORE/PT/app/src/main/res/layout/fragment_sport.xml" value="0.1796875" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/drawable/circular.xml" value="0.14814814814814814" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/drawable/degrade.xml" value="0.14814814814814814" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/drawable/rond_edittext.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_course.xml" value="0.1" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_fin_activite.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_fin_tabata.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_graphique.xml" value="0.1796875" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_page2.xml" value="0.1796875" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_success.xml" value="0.1796875" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/activity_tabata.xml" value="0.13179347826086957" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/fragment_accueil.xml" value="0.1" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/fragment_historique.xml" value="0.1" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/fragment_parametre.xml" value="0.1" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/layout/fragment_sport.xml" value="0.1" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PROJET_TUTORE/PT/app/src/main/res/menu/menu_page2.xml" value="0.1796875" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PT/app/src/main/res/layout/activity_connexion.xml" value="0.1796875" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PT/app/src/main/res/layout/activity_inscription.xml" value="0.1" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PT/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PT/app/src/main/res/layout/activity_success.xml" value="0.1796875" />
+        <entry key="..\:/Users/kevin/AndroidStudioProjects/PT/app/src/main/res/xml/network_security_config.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_create_new_folder_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_house_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_mail_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_sports_basketball_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_baseline_sports_soccer_24.xml" value="0.209375" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.209375" />
+        <entry key="app/src/main/res/layout/activity_accueil_tabata.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_connexion.xml" value="0.16770833333333332" />
+        <entry key="app/src/main/res/layout/activity_contacter_nous.xml" value="0.21920289855072464" />
+        <entry key="app/src/main/res/layout/activity_course.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_edit_journey.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_entrainement.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_fin_activite.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_fin_tabata.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_info_perso.xml" value="0.109375" />
+        <entry key="app/src/main/res/layout/activity_inscription.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_manuellement.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_page2.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_page_parametre.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_recap_activite.xml" value="0.15070921985815602" />
+        <entry key="app/src/main/res/layout/activity_record_journey.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_tabata.xml" value="0.19375" />
+        <entry key="app/src/main/res/layout/activity_view_journeys.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/activity_view_single_journey.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_accueil.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_historique.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/fragment_parametre.xml" value="0.19322916666666667" />
+        <entry key="app/src/main/res/layout/fragment_sport.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/journeylist.xml" value="0.19322916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

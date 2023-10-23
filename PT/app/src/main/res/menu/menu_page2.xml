@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Accueil"
+        android:id="@+id/accueil"
+        android:icon="@drawable/ic_baseline_house_24"/>
+    <item android:title="Sport"
+        android:id="@+id/sport"
+        android:icon="@drawable/ic_baseline_lock_24"/>
+    <item android:title="Historique"
+        android:id="@+id/historique"
+        android:icon="@drawable/ic_baseline_create_new_folder_24" />
+    <item android:title="Menu"
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        />
+</menu>
